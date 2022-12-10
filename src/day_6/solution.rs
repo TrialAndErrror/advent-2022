@@ -1,5 +1,4 @@
-use crate::day_6::utils::is_start_of_message;
-use super::utils::{read_data, is_start_of_packet};
+use super::utils::{read_data, is_start_of_packet, is_start_of_message};
 
 pub fn part_1() {
     let data = read_data("src/day_6/my_data.txt");
