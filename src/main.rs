@@ -24,5 +24,5 @@ fn main() {
 
     println!("\n\nSolutions for Day 5:");
     day_5::solution::part_1();
-
+    day_5::solution::part_2();
 }
