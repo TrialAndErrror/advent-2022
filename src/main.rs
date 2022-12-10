@@ -3,6 +3,7 @@ mod day_1;
 mod day_3;
 mod day_4;
 mod day_5;
+mod day_6;
 
 
 fn main() {
@@ -25,4 +26,8 @@ fn main() {
     println!("\n\nSolutions for Day 5:");
     day_5::solution::part_1();
     day_5::solution::part_2();
+
+    println!("\n\nSolutions for Day 6:");
+    day_6::solution::part_1();
+    day_6::solution::part_2();
 }
