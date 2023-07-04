@@ -31,7 +31,7 @@ pub struct Directory<'a> {
     parent: &'a Directory<'a>,
 }
 
-impl Directory<'a> {
+impl Directory {
     fn from_string(entry: &str, parent: &Directory) -> Directory<'a> {
         let parts = entry.split(" ").collect::<Vec<&str>>();
         Directory {
